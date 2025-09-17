@@ -9,6 +9,9 @@
         "cakephp/cakephp": "^2.10",
         "composer/installers": "*"
     },
+    "replace": {
+        "ichikaway/xform": "^2.0"
+    },
     "config": {
         "sort-packages": true,
         "allow-plugins": {
