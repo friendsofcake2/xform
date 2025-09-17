@@ -1,5 +1,4 @@
 # Xform (CakePHP Plugin)
-====================
 
 __This is forked for CakePHP2.__
 
