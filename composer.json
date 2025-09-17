@@ -1,5 +1,5 @@
 {
-    "name": "ichikaway/xform",
+    "name": "friendsofcake2/xform",
     "description": "Xform (Plugin) extends cakephp Form helper.",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "form"],
