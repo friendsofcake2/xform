@@ -1,8 +1,28 @@
 # Xform (CakePHP Plugin)
 
+[![GitHub License](https://img.shields.io/github/license/friendsofcake2/xform?label=License)](LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/friendsofcake2/xform?label=Packagist)](https://packagist.org/packages/friendsofcake2/xform)
+[![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/friendsofcake2/xform/php?logo=php&logoColor=%23FFFFFF&label=PHP&labelColor=%23777BB4&color=%23FFFFFF)](https://packagist.org/packages/friendsofcake2/xform)
+[![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/friendsofcake2/xform/cakephp/cakephp?logo=cakephp&logoColor=%23FFFFFF&label=CakePHP&labelColor=%23D33C43&color=%23FFFFFF)](https://packagist.org/packages/friendsofcake2/xform)
+[![Tests](https://img.shields.io/github/actions/workflow/status/friendsofcake2/xform/tests.yml?label=Tests)](https://github.com/friendsofcake2/xform/actions/workflows/tests.yml)
+[![Codecov](https://img.shields.io/codecov/c/gh/friendsofcake2/xform?label=Coverage)](https://codecov.io/gh/friendsofcake2/xform)
+
 __This is forked for CakePHP2.__
 
-extends cakephp Form helper.
+Extends cakephp Form helper.
+
+## Installation
+
+
+* Copy the files in this directory into `app/Plugin/Xform`
+* load plugin in bootstrap
+  `CakePlugin::load('Xform');`
+* Include the helper in your `controller.php`:
+  `var $helpers = array('Form', 'Xform.Xform');`
+* call method of XformHelper in your view.
+  `echo $this->Xform->input('title');`
+
+## Usage
 
 On confirmation screen, this helper just show value of post data
   instead of making form tags.
@@ -22,16 +42,3 @@ If you want to mask a password field on confirmation screen,
 
 If you want to change separator of datetime,
   set separator value on the changeDatetimeSeparator property.
-
-
-## Installation
-
-
-* Copy the files in this directory into `app/Plugin/Xform`
-* load plugin in bootstrap
-  `CakePlugin::load('Xform');`
-* Include the helper in your `controller.php`:
-  `var $helpers = array('Form', 'Xform.Xform');`
-* call method of XformHelper in your view.
-  `echo $this->Xform->input('title');`
-
