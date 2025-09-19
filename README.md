@@ -13,8 +13,12 @@ Extends cakephp Form helper.
 
 ## Installation
 
+```
+composer require friendsofcake2/xform
+```
 
-* Copy the files in this directory into `app/Plugin/Xform`
+## Config
+
 * load plugin in bootstrap
   `CakePlugin::load('Xform');`
 * Include the helper in your `controller.php`:
