@@ -1,13 +1,13 @@
 {
-    "name": "friendsofcake2/xform",
+    "name": "pieceofcake2/xform",
     "description": "Xform (Plugin) extends cakephp Form helper.",
     "type": "cakephp-plugin",
     "keywords": ["cakephp", "form"],
     "license": "MIT",
     "require": {
         "php": "^8.0",
-        "cakephp/cakephp": "^2.10",
-        "composer/installers": "*"
+        "composer/installers": "*",
+        "pieceofcake2/cakephp": "^2.10"
     },
     "replace": {
         "ichikaway/xform": "^2.0"
@@ -20,5 +20,8 @@
     },
     "extra": {
         "installer-name": "Xform"
+    },
+    "require-dev": {
+        "pieceofcake2/app": "^2.1"
     }
 }

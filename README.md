@@ -1,11 +1,11 @@
 # Xform (CakePHP Plugin)
 
-[![GitHub License](https://img.shields.io/github/license/friendsofcake2/xform?label=License)](LICENSE)
-[![Packagist Version](https://img.shields.io/packagist/v/friendsofcake2/xform?label=Packagist)](https://packagist.org/packages/friendsofcake2/xform)
-[![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/friendsofcake2/xform/php?logo=php&logoColor=%23FFFFFF&label=PHP&labelColor=%23777BB4&color=%23FFFFFF)](https://packagist.org/packages/friendsofcake2/xform)
-[![Packagist Dependency Version](https://img.shields.io/packagist/dependency-v/friendsofcake2/xform/cakephp/cakephp?logo=cakephp&logoColor=%23FFFFFF&label=CakePHP&labelColor=%23D33C43&color=%23FFFFFF)](https://packagist.org/packages/friendsofcake2/xform)
-[![Tests](https://img.shields.io/github/actions/workflow/status/friendsofcake2/xform/tests.yml?label=Tests)](https://github.com/friendsofcake2/xform/actions/workflows/tests.yml)
-[![Codecov](https://img.shields.io/codecov/c/gh/friendsofcake2/xform?label=Coverage)](https://codecov.io/gh/friendsofcake2/xform)
+[![GitHub License](https://img.shields.io/github/license/pieceofcake2/xform?label=License)](LICENSE)
+[![Packagist Version](https://img.shields.io/packagist/v/pieceofcake2/xform?label=Packagist)](https://packagist.org/packages/pieceofcake2/xform)
+[![PHP](https://img.shields.io/packagist/dependency-v/pieceofcake2/xform/php?logo=php&logoColor=%23FFFFFF&label=PHP&labelColor=%23777BB4&color=%23FFFFFF)](https://packagist.org/packages/pieceofcake2/xform)
+[![CakePHP](https://img.shields.io/packagist/dependency-v/pieceofcake2/xform/pieceofcake2/cakephp?logo=cakephp&logoColor=%23FFFFFF&label=CakePHP&labelColor=%23D33C43&color=%23FFFFFF)](https://packagist.org/packages/pieceofcake2/xform)
+[![Tests](https://img.shields.io/github/actions/workflow/status/pieceofcake2/xform/tests.yml?label=Tests)](https://github.com/pieceofcake2/xform/actions/workflows/tests.yml)
+[![Codecov](https://img.shields.io/codecov/c/gh/pieceofcake2/xform?label=Coverage)](https://codecov.io/gh/pieceofcake2/xform)
 
 __This is forked for CakePHP2.__
 
@@ -14,7 +14,7 @@ Extends cakephp Form helper.
 ## Installation
 
 ```
-composer require friendsofcake2/xform
+composer require pieceofcake2/xform
 ```
 
 ## Config
